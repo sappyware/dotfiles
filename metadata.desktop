@@ -1,0 +1,11 @@
+[SddmGreeterTheme]
+Name=Gruvbox Dark Hard Aqua
+Description=Bold typographic login with the Gruvbox Dark Hard palette and Inter
+Author=you
+Version=2.0
+Type=sddm-theme
+MainScript=Main.qml
+ConfigFile=theme.conf
+Theme-Id=gruvbox-dark-hard-aqua
+Theme-API=2.0
+QtVersion=6
