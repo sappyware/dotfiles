@@ -1,7 +1,3 @@
-# ~/.config/roseclip/config.toml
-# Every key is optional; the file live-reloads on save.
-# Themes: catppuccin-mocha, catppuccin-latte, nord, gruvbox, tokyonight, rose-pine, dracula
-
 theme = "catppuccin-mocha"
 
 [window]

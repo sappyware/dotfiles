@@ -1,1 +1,1 @@
-swayidle -w timeout 120 'qs -c macoslock'
+swayidle -w timeout 300 'qs -c roselock'
