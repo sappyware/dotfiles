@@ -1,0 +1,13 @@
+bg = "#a61e1e2e"
+border = "#40b4befe"
+highlight = "#1fcdd6f4"
+text = "#cdd6f4"
+subtext = "#cc9399b2"
+track = "#33cdd6f4"
+accent = "#f5c2e7"
+shadow = "#80000000"
+radius = 22
+blur = 1.0
+saturation = 0.3
+brightness = 0.0
+font = "Iosevka Nerd Font"

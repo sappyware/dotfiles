@@ -1,0 +1,97 @@
+[appearance]
+glass            = true
+corner_radius    = 14
+shadow           = true
+background_alpha = 0.85
+
+[animations]
+enabled     = true
+duration_ms = 200
+easing      = "OutCubic"
+
+[theme]
+bg        = "#1e1e2e"
+fg        = "#cdd6f4"
+accent    = "#f5c2e7"
+accent_fg = "#1e1e2e"
+muted     = "#9399b2"
+border    = "#313244"
+urgent    = "#f38ba8"
+green     = "#a6e3a1"
+yellow    = "#f9e2af"
+blue      = "#89dceb"
+purple    = "#cba6f7"
+orange    = "#fab387"
+
+[font]
+family       = "Iosevka Nerd Font"
+size_small   = 14
+size_body    = 16
+size_title   = 20
+size_display = 52
+
+[paths]
+widgets_dir = "~/.config/rosewidgets/widgets"
+state_dir   = "~/.local/state/rosewidgets"
+
+[general]
+blur = false
+blur_tint = 0.45
+blur_radius = 60
+tile_order = ["music1", "lyrics1", "clock1", "stats1", "moon1"]
+autotile = true
+theme = "gruvbox-dark"
+monitor = ""
+auto_stack = true
+stack_corner = "bottom-right"   # or top-left / top-right / bottom-left
+stack_gap = 16
+stack_margin = 40
+
+[widgets.music1]
+height = 149
+width = 358
+type = "music"
+x = 100
+y = 1220
+
+[widgets.moon1]
+height = 200
+width = 400
+type = "moon"
+x = 100
+y = 700
+
+[general]
+autotile = false
+tile_corner = "bottom-right"   # bottom-right | bottom-left | top-right | top-left
+tile_gap = 20                  # space between widgets, in px
+tile_margin = 24               # distance from the screen edges, in px
+
+[widgets.clock1]
+height = 200
+width = 354
+type = "clock"
+x = 2106
+y = 1169
+
+[widgets.stats1]
+height = 240
+width = 320
+type = "stats"
+x = 2140
+y = 920
+
+[widgets.lyrics1]
+height = 300
+width = 540
+type = "lyrics"
+text_align="left"
+x = 100
+y = 910
+
+[widgets.cat1]
+height = 146
+width = 246
+type = "cat"
+x = 2214
+y = 764

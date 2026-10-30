@@ -1,0 +1,14 @@
+# Colors are #AARRGGBB (alpha first).
+bg = "#991c1c22"
+border = "#33ffffff"
+highlight = "#26ffffff"
+text = "#f5f5f7"
+subtext = "#99ebebf5"
+track = "#33ffffff"
+accent = "#0a84ff"
+shadow = "#73000000"
+radius = 24
+blur = 1.0
+saturation = 0.35
+brightness = 0.02
+font = "Inter"

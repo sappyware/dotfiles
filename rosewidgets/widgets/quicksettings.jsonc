@@ -1,0 +1,42 @@
+{
+  "id": "quicksettings",
+  "position": { "x": 260, "y": 260 },
+
+  "data": {
+    "vol": {
+      "source": "exec",
+      "command": ["sh", "-c", "wpctl get-volume @DEFAULT_AUDIO_SINK@ | awk '{print int($2*100)}'"],
+      "interval_ms": 1000
+    }
+  },
+
+  "layout": {
+    "type": "column",
+    "padding": 20,
+    "spacing": 12,
+    "children": [
+      { "type": "text", "value": "Quick Settings", "size": 14, "weight": "bold", "color": "@muted" },
+
+      {
+        "type": "row", "spacing": 8,
+        "children": [
+          { "type": "button", "value": "🔉", "action": "volume.down", "size": 16 },
+          { "type": "button", "value": "{vol.output}%", "color": "@accent", "size": 16 },
+          { "type": "button", "value": "🔊", "action": "volume.up",   "size": 16 },
+          { "type": "button", "value": "🔇", "action": "volume.mute", "size": 16 }
+        ]
+      },
+
+      { "type": "divider", "w": 220 },
+
+      {
+        "type": "row", "spacing": 8,
+        "children": [
+          { "type": "button", "value": "Lock",   "run": ["sh", "-c", "loginctl lock-session"] },
+          { "type": "button", "value": "Sleep",  "run": ["sh", "-c", "systemctl suspend"] },
+          { "type": "button", "value": "Reboot", "run": ["sh", "-c", "systemctl reboot"] }
+        ]
+      }
+    ]
+  }
+}

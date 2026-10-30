@@ -1,0 +1,47 @@
+{
+  // Append a city to the url for a specific location:
+  //   https://wttr.in/Tehran?format=j1
+  "id": "weather",
+  "position": { "x": 260, "y": 40 },
+
+  "data": {
+    "weather": {
+      "source": "http",
+      "url": "https://wttr.in/?format=j1",
+      "interval_ms": 1800000
+    }
+  },
+
+  "layout": {
+    "type": "column",
+    "padding": 20,
+    "spacing": 6,
+    "children": [
+      {
+        "type": "row", "spacing": 14,
+        "children": [
+          {
+            "type": "text",
+            "value": "{weather.current_condition[0].temp_C}°",
+            "size": 44, "weight": "bold"
+          },
+          {
+            "type": "column", "spacing": 2,
+            "children": [
+              {
+                "type": "text",
+                "value": "{weather.current_condition[0].weatherDesc[0].value}",
+                "size": 13, "color": "@muted"
+              },
+              {
+                "type": "text",
+                "value": "H:{weather.weather[0].maxtempC}°  L:{weather.weather[0].mintempC}°",
+                "size": 11, "color": "@muted"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

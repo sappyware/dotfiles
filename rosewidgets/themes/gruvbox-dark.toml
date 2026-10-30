@@ -1,0 +1,18 @@
+# Gruvbox Dark Hard
+bg = "#1d2021"
+surface = "#282828"
+border = "#3c3836"
+text = "#ebdbb2"
+subtext = "#928374"
+accent = "#83a598"
+accent_fg = "#1d2021"
+green = "#b8bb26"
+yellow = "#fabd2f"
+red = "#fb4934"
+blue = "#83a598"
+purple = "#d3869b"
+peach = "#fe8019"
+teal = "#8ec07c"
+shadow = "#00000000"
+radius = 12
+font = "Iosevka NF"

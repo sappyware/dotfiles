@@ -1,0 +1,7 @@
+singleton Config       1.0 Config.qml
+singleton Theme        1.0 Theme.qml
+singleton Positions    1.0 Positions.qml
+Card                   1.0 Card.qml
+WidgetHost             1.0 WidgetHost.qml
+WidgetLayout           1.0 WidgetLayout.qml
+BindingSource          1.0 BindingSource.qml

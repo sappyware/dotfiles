@@ -1,0 +1,37 @@
+# Rosewidgets global config. Edit and save — the shell auto-reloads.
+
+[appearance]
+glass            = false
+corner_radius    = 14
+shadow           = true
+background_alpha = 0.85
+
+[animations]
+enabled     = true
+duration_ms = 200
+easing      = "OutCubic"
+
+[theme]
+bg        = "#1e1e2e"
+fg        = "#cdd6f4"
+accent    = "#f5c2e7"
+accent_fg = "#1e1e2e"
+muted     = "#9399b2"
+border    = "#313244"
+urgent    = "#f38ba8"
+green     = "#a6e3a1"
+yellow    = "#f9e2af"
+blue      = "#89dceb"
+purple    = "#cba6f7"
+orange    = "#fab387"
+
+[font]
+family       = "Iosevka Nerd Font"
+size_small   = 12
+size_body    = 14
+size_title   = 18
+size_display = 52
+
+[paths]
+widgets_dir = "~/.config/rosewidgets/widgets"
+state_dir   = "~/.local/state/rosewidgets"

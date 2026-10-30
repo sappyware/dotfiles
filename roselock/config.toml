@@ -1,0 +1,24 @@
+# roselock config — hot-reloaded on save
+[wallpaper]
+# "screenshot_blur" | "file" | "shader"
+mode = "file"
+screenshot_blur = 1
+glass_blur = 1.0
+shader = "retrowave-pink"
+shader_fps = 30
+file = "/home/arya/Pictures/Wallpapers/artificial-brain.jpg"
+video_file = "wallpaper.mp4"
+
+[ui]
+use24h = true
+dim = 0.14
+show_wifi = true
+show_battery_percent = false
+user_family = ""
+display_name = "Arya Honarmand"
+foreground = "auto"
+
+[transition]
+# "screenshot" (fade to grim screenshot) | "live" (fade to transparent)
+mode = "screenshot"
+fade_ms = 700

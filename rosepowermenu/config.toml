@@ -1,0 +1,72 @@
+[font]
+family   = "Iosevka NF"
+fallback = ["Symbols Nerd Font Mono", "monospace"]
+size     = 30
+weight   = "bold"
+italic   = false
+
+[layout]
+buttons = ["lock", "logout", "suspend", "reboot", "shutdown"]
+
+[overlay]
+dim      = 0    # 0.0 → 1.0 backdrop opacity
+radius   = 12
+padding_x = 24
+padding_y = 20
+gap       = 14
+
+# Change these to whatever tools you use.
+[actions]
+lock = "qs -c roselock"
+logout   = "mmsg dispatch quit"
+suspend  = "systemctl suspend"
+reboot   = "systemctl reboot"
+shutdown = "systemctl poweroff"
+
+[labels]
+lock     = "Lock"
+logout   = "Logout"
+suspend  = "Sleep"
+reboot   = "Reboot"
+shutdown = "Off"
+
+[icons]
+lock     = "\uf023"
+logout   = "\uf2f5"
+suspend  = "\uf186"
+reboot   = "\uf01e"
+shutdown = "\uf011"
+
+[colors]
+bg = "#1d2021"
+surface = "#282828"
+border = "#3c3836"
+fg = "#ebdbb2"
+muted = "#928374"
+accent = "#83a598"
+selected_from = "#83a598"
+selected_to = "#83a598"
+selected_fg = "#1d2021"
+hover = "#32302f"
+urgent = "#fb4934"
+
+[button]
+width      = 200
+height     = 210
+radius     = 14
+icon_size  = 0     # 0 = use font.size * 1.7
+label_size = 0     # 0 = use font.size
+confirm_dangerous = true
+
+[animation]
+# focus highlight
+style = "slide"            # "slide" (one highlight glides) | "fade"
+focus_ms = 180             # 0 = instant
+easing = "OutCubic"        # see easing list below
+
+# opening animation
+open_style = "pop"      # expand | glide | pop | fade | none
+open_ms = 240              # 0 = no animation
+open_easing = "OutCubic"
+open_offset = 28           # px the card rises (glide only)
+open_scale = 0.94    

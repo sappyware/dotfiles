@@ -1,0 +1,70 @@
+# ===========================================================================
+# Font Configuration
+# ===========================================================================
+# This is the recommended setup for Iosevka Nerd Font, optimized for a
+# status bar. It uses the "Mono" variant to ensure all icons and glyphs
+# have a consistent, fixed width, which prevents the bar from shifting
+# as values change.
+
+
+[font]
+# The primary font to use for all text and icons.
+# IosevkaTerm Nerd Font Mono is the preferred variant for bars.
+# Alternatives you can try: "Iosevka Nerd Font Mono", "IosevkaTerm Nerd Font"
+family = 'Iosevka NF'
+
+# Fallback fonts, tried in order if a glyph is missing from the primary font.
+fallback = ["Symbols Nerd Font Mono", "Noto Sans Symbols 2", "monospace"]
+
+# Font size in pixels. 20px is a solid, readable default.
+# You can lower this to 18 or 16 if you want a more compact bar.
+size = 20
+
+# Font weight: "normal" (400), "bold" (700), or a numeric value like 500.
+weight = "bold"
+
+# Enable italic text. `false` is standard for status bars.
+italic = false
+
+# Extra spacing between letters, in pixels. 0 is standard.
+# A value of 0.5 or 1 can improve legibility with some Iosevka variants.
+letter_spacing = 0
+
+[bar]
+margin_top    = 15
+margin_bottom = 6
+margin_right = 20
+margin_left = 20
+
+
+[workspaces]
+count = 5 # 0 = show all tags; N = show only first N
+
+[media]
+artSize     = 25
+bars        = 12
+barWidth    = 3
+barGap      = 2
+maxTitleLen = 40
+visualizer  = true
+coverArt    = true
+enabled     = true
+
+[layout]
+left   = ["brand", "workspaces", "tray"]
+center = ["media",  "title"]        # <-- must contain "media"
+right  = ["cpu", "memory", "network", "volume", "battery", "clock"]
+
+[colors]
+bg        = "#1d2021"
+fg        = "#ebdbb2"
+border    = "#3c3836"
+muted     = "#928374"
+accent    = "#83a598"
+accent_fg = "#1d2021"
+urgent    = "#fb4934"
+cpu       = "#b8bb26"
+memory    = "#fabd2f"
+network   = "#83a598"
+volume    = "#d3869b"
+battery   = "#8ec07c"

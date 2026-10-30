@@ -1,0 +1,39 @@
+# monochrome kitty theme
+
+background              #000000
+foreground              #e5e5e5
+selection_background    #404040
+selection_foreground    #ffffff
+cursor                  #ffffff
+cursor_text_color       #000000
+url_color               #b0b0b0
+
+color0  #000000
+color8  #404040
+color1  #555555
+color9  #777777
+color2  #666666
+color10 #888888
+color3  #777777
+color11 #999999
+color4  #888888
+color12 #aaaaaa
+color5  #999999
+color13 #bbbbbb
+color6  #aaaaaa
+color14 #cccccc
+color7  #d0d0d0
+color15 #ffffff
+
+background_opacity 0.85
+window_padding_width 15
+
+font_family 0xProto Nerd Font
+bold_font auto
+italic_font auto
+bold_italic_font auto
+font_size 12.2
+
+cursor_shape block
+cursor_blink_interval 0
+strip_trailing_spaces smart

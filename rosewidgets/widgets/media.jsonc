@@ -1,0 +1,38 @@
+{
+  "id": "media",
+  "position": { "x": 40, "y": 260 },
+
+  "data": {
+    "media": { "source": "mpris" }
+  },
+
+  "layout": {
+    "type": "column",
+    "padding": 20,
+    "spacing": 10,
+    "children": [
+      {
+        "type": "row", "spacing": 14,
+        "children": [
+          { "type": "image", "source": "{media.art_url}", "size": 72, "radius": 10 },
+          {
+            "type": "column", "spacing": 2,
+            "children": [
+              { "type": "text", "value": "{media.title}",  "size": 16, "weight": "bold", "max_lines": 1 },
+              { "type": "text", "value": "{media.artist}", "size": 12, "color": "@muted", "max_lines": 1 },
+              { "type": "text", "value": "{media.album}",  "size": 11, "color": "@muted", "max_lines": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "row", "spacing": 8,
+        "children": [
+          { "type": "button", "value": "⏮", "action": "media.prev",   "size": 18 },
+          { "type": "button", "value": "⏯", "action": "media.toggle", "size": 18 },
+          { "type": "button", "value": "⏭", "action": "media.next",   "size": 18 }
+        ]
+      }
+    ]
+  }
+}

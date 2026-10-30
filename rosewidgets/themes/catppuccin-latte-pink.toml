@@ -1,0 +1,18 @@
+# Catppuccin Latte (Pink). Swap accent for any other Catppuccin color.
+bg = "#eff1f5"
+surface = "#ccd0da"
+border = "#bcc0cc"
+text = "#4c4f69"
+subtext = "#6c6f85"
+accent = "#ea76cb"
+accent_fg = "#eff1f5"
+green = "#40a02b"
+yellow = "#df8e1d"
+red = "#d20f39"
+blue = "#1e66f5"
+purple = "#8839ef"
+peach = "#fe640b"
+teal = "#179299"
+shadow = "#33000000"
+radius = 22
+font = "Inter"

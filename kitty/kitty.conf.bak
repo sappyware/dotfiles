@@ -1,0 +1,81 @@
+# font
+# font_family JetBrains Mono Nerd Font
+# bold_font auto
+# italic_font auto
+# bold_italic_font auto
+font_size 16
+# monochrome
+# foreground #d4d4d4
+# background #101010
+# selection_foreground #101010
+# selection_background #d4d4d4
+# cursor #d4d4d4
+# cursor_text_color #101010
+
+# palette
+# color0  #101010
+# color1  #b0b0b0
+# color2  #a0a0a0
+# color3  #909090
+# color4  #808080
+# color5  #a8a8a8
+# color6  #989898
+# color7  #d4d4d4
+# color8  #505050
+# color9  #d0d0d0
+# color10 #c0c0c0
+# color11 #e0e0e0
+# color12 #b8b8b8
+# color13 #d8d8d8
+# color14 #c8c8c8
+# color15 #ffffff
+
+# padding
+window_padding_width 15
+
+# window
+remember_window_size yes
+initial_window_width 1100
+initial_window_height 700
+window_border_width 1.5pt
+hide_window_decorations yes
+
+# cursor
+cursor_shape block
+cursor_blink_interval 0
+
+# terminal
+scrollback_lines 10000
+enable_audio_bell no
+confirm_os_window_close 0
+
+# tabs
+tab_bar_style powerline
+tab_powerline_style slanted
+# active_tab_foreground #101010
+# active_tab_background #d4d4d4
+# inactive_tab_foreground #909090
+# inactive_tab_background #202020
+
+# behavior
+copy_on_select yes
+strip_trailing_spaces smart
+repaint_delay 8
+input_delay 1
+sync_to_monitor yes
+
+background_opacity 0.8
+
+
+# BEGIN_KITTY_THEME
+# Catppuccin-Mocha
+include current-theme.conf
+# END_KITTY_THEME
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="Iosevka Nerd Font"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS

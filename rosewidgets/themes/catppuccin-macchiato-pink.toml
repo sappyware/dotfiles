@@ -1,0 +1,18 @@
+# Catppuccin Macchiato (Pink). Swap accent for any other Catppuccin color.
+bg = "#24273a"
+surface = "#363a4f"
+border = "#494d64"
+text = "#cad3f5"
+subtext = "#a5adcb"
+accent = "#f5bde6"
+accent_fg = "#181926"
+green = "#a6da95"
+yellow = "#eed49f"
+red = "#ed8796"
+blue = "#8aadf4"
+purple = "#c6a0f6"
+peach = "#f5a97f"
+teal = "#8bd5ca"
+shadow = "#80000000"
+radius = 22
+font = "Inter"

@@ -1,0 +1,18 @@
+{
+  "id": "clock",
+  "position": { "x": 40, "y": 40 },
+
+  "data": {
+    "clock": { "source": "clock", "interval_ms": 1000 }
+  },
+
+  "layout": {
+    "type": "column",
+    "padding": 22,
+    "spacing": 4,
+    "children": [
+      { "type": "text", "value": "{clock.time_hhmm}", "size": 52, "weight": "bold" },
+      { "type": "text", "value": "{clock.date_long}", "size": 13, "color": "@muted" }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+bg = "#99301a26"
+border = "#40ffc0d0"
+highlight = "#26ffd0dc"
+text = "#fff1f4"
+subtext = "#b3ffd0dc"
+track = "#33ffc0d0"
+accent = "#ff7a9c"
+shadow = "#73000000"
+radius = 28
+blur = 1.0
+saturation = 0.5
+brightness = 0.03
+font = "Inter"
