@@ -1,0 +1,17 @@
+[SddmGreeterTheme]
+Name=Roselogin
+Description=Material 3 login screen: big stacked clock, wallpaper-tinted palette (port of roselock)
+Author=
+Copyright=
+License=
+Type=sddm-theme
+Version=1.0
+Website=
+Screenshot=
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=
+Theme-Id=roselogin
+Theme-API=2.0
+QTVersion=6
